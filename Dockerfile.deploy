@@ -3,8 +3,8 @@ FROM fpco/stack-run:latest
 RUN mkdir -p /app
 WORKDIR /app
 
-ADD sample-elasticbeanstalk /app
+ADD duy3 /app
 
 EXPOSE 5000
 
-CMD ["/app/sample-elasticbeanstalk"]
+CMD ["/app/duy3"]
