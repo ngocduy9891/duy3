@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "<account-id>.dkr.ecr.<region>.amazonaws.com/<repo>:<TAG>",
+    "Name": "012881927014.dkr.ecr.ap-southeast-1.amazonaws.com/docker:<TAG>",
     "Update": "true"
   },
   "Ports": [
