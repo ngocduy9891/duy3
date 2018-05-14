@@ -19,5 +19,5 @@ deployment:
   elasticbeanstalk:
     branch: master
     commands:
-      - docker build --rm=false -t 012881927014.dkr.ecr.ap-southeast-1.amazonaws.com/docker:$CIRCLE_SHA1 -f Dockerfile.deploy .
+      - docker build -t 012881927014.dkr.ecr.ap-southeast-1.amazonaws.com/docker:$CIRCLE_SHA1 -f Dockerfile.deploy .
       - ./deploy.sh $CIRCLE_SHA1
